@@ -1,0 +1,62 @@
+body {
+    font-family: 'Raleway';
+}
+
+.navbar {
+    background-color: black;
+    padding: 3vh;
+    text-align: center;
+    width: 100%
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 2vw;
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    background: rgba(66, 66, 66, 0.4);
+    font-size: 18px;
+    
+    transition: 400ms;
+    
+    box-sizing: border-box;
+    padding: 0.8rem 1.8rem;
+    border-radius: 2px;
+}
+
+nav a:hover {
+    background: rgba(117, 117, 117, 0.4);
+}
+
+body {
+    overflow-y : hidden;
+    overflow-x : hidden;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.875), rgba(0, 0, 0, 0.875) ), url(https://i.gifer.com/7vqd.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    padding: 30px 0;
+    height: 10vh;
+}
+
+footer p {
+    color: rgb(34, 34, 34);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1vh 0;
+}

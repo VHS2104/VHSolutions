@@ -1,0 +1,21 @@
+img {
+    width: auto;
+    height: 85%;
+
+    transition: 0.25s ease-in-out;
+    animation: img-load 2s;
+}
+
+img:hover {
+    width: auto;
+    height: 90%;
+}
+
+@keyframes img-load {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
